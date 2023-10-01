@@ -1,0 +1,24 @@
+#vertical-line
+{
+    height:85px;
+    width: 3px;
+    background-color: lightgray;
+}
+.scroll-x{
+    width: 93vw;
+    margin: auto;
+}
+.list{
+    white-space:nowrap;
+    overflow-x:scroll;
+}
+.list>img{
+    display: inline-block;
+    margin: 10px;
+}
+.abc{
+margin-left: 65px;
+margin-top: 10px;
+margin-bottom:10px;
+
+}
