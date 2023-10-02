@@ -1,10 +1,41 @@
+.list::-webkit-scrollbar{
+  display: none;
+}
+nav{
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+.for{
+    /* border-radius: 4px; */
+    /* border-box */
+    background-color: #b8b3b3;
+    /* border-color:  #b8b3b3;; */
+    border-radius: 10px;
+    border: 1px solid #f2f2f2;
+    padding-inline: 10px;
+    width:45vw;
+    height: 9vh;
+  }
+
+.searh{
+    margin-top: 10px;
+    margin-left: 2px;
+    width: 40vw;
+    height: 5vh;
+    background:transparent;
+    border:none;
+    
+  
+}
 #vertical-line
 {
     height:85px;
-    width: 3px;
+    width: 2px;
     background-color: lightgray;
 }
-.scroll-x{
+.scroll-x{ 
     width: 93vw;
     margin: auto;
 }
@@ -16,9 +47,198 @@
     display: inline-block;
     margin: 10px;
 }
-.abc{
-margin-left: 65px;
-margin-top: 10px;
-margin-bottom:10px;
-
-}
+.catagory {
+    width: 85vw;
+    margin: auto;
+    z-index: 1;
+  }
+  .my-card{
+    width: 220px;
+    box-sizing: border-box;
+    padding: 9px;
+    border-radius: 15px !important;
+    white-space: wrap;
+    display: inline-block !important;
+    margin-inline:10px;
+    position: static; 
+  }
+  
+  .my-card-text{
+    margin:9px;
+    flex-wrap: wrap;
+  }
+  
+  .my-card>img{
+    display: inline-block;
+    margin: auto;
+  }
+  
+  .time{
+    font-size: 11px;
+    font-weight: 700;
+    background-color: #f2f2f2;
+    color: rgb(54, 54, 54);
+    width:fit-content;
+    border-radius: 5px;
+  }
+  
+  .product_weight{
+    color:#666666;
+    font-size: 13px;
+  }
+  .row-3>p{
+   margin:0px;
+  }
+  
+ 
+  footer{
+    width: 85vw;
+    margin: auto;
+  }
+  
+  
+  #my-footer-row-3{
+    font-size: 15px;
+    text-align: justify;
+    color: #666666;
+  }
+  
+  
+  #my-footer-row-2{
+    font-size: 13px;
+    text-align: justify;
+    color: #666666;
+    display: flex;
+   margin-top: 20px;
+   margin-bottom: 20px;
+  }
+  #footer__row__2__col1{
+    flex:1;
+    padding-inline:10px;
+   
+  }
+  #footer__row__2__col2{
+    flex:1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  #footer__row__2__col1>h6{
+    color: #666666;
+  }
+  .some-box{
+    width: 120px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    background-color: #213a50;
+    font-size:medium
+  }
+  
+  
+  #footer__row__2__col3{
+    flex:1;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .social-icon{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 50%;
+  }
+  
+  #my-footer-row-1{
+    display: flex;
+    margin-top: 30px;
+  }
+  
+  
+  #footer__table__1{
+    flex: 2;
+    width: 100%;
+  }
+  #footer__table__2{
+    flex: 3;
+    
+  }
+  
+  table{
+    width: 100%;
+  }
+  td{
+    color: #666666;
+    line-height: 30px;
+  }
+  
+  
+  @media screen and (max-width:480px){
+    #hero-section{
+        display: none !important;
+    }
+    nav,#my-footer-row-1{
+        flex-direction: column !important;
+        align-items: center !important;
+        margin: auto;
+    }
+    #my-footer-row-2,#footer__table__1,#footer__table__2,#footer__row__2__col2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+    td{
+        padding-inline: 12px;
+        text-align: center;
+        font-size: 12px;
+    }
+    .some-box{
+        margin-top: 10px;
+    }
+    #footer__row__2__col3{
+        justify-content: space-between;
+        width: 90vw;
+        margin: auto;
+        margin-top: 10px;
+    }
+    .vertical-line{
+        display: none;
+    }
+    #my-nav-search{
+        width: 90vw;
+    }
+    nav{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        position: static;
+    }
+  }
+  
+  .last{
+    margin-top: 25px;
+    margin-bottom: 20px;
+     text-align: center;
+    
+     font-weight: 900;
+     font-size: larger;
+  }
+    #name{
+        /* border-style: solid; */
+        border-color: rgb(209, 28, 164);
+        background-color: ;
+        padding:20px;
+        font-size: larger;
+        font-style: italic;
+        text-shadow: 2px 2px 4px plum;
+    }
