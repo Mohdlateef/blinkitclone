@@ -183,14 +183,53 @@ nav{
   }
   
   
-  @media screen and (max-width:480px){
-    #hero-section{
+  @media screen and (max-width:550px){
+    #paan,#vertical-line{
         display: none !important;
     }
     nav,#my-footer-row-1{
         flex-direction: column !important;
         align-items: center !important;
         margin: auto;
+    }
+    .Blink-logo{
+      position: absolute;
+      left:15px;
+      top: 15px;
+    }
+    #Delivery{
+      position: absolute;
+      right: 15px;
+      top:15px;
+
+    }
+    .for{
+      margin: 30px;
+      margin-top: 80px;
+      display:flex ;
+      height: 60px;
+      width: 100vw !important;
+      align-items: center;
+    }
+    .searh{
+      margin-left: 25px;
+      margin-bottom: 18px;
+
+    }
+    .nav-buttons{
+      margin-top: 20px;
+      align-items: center;
+      display: flex !important;
+      margin-bottom: 50px;
+      /* justify-content: space-ae !important; */
+    }
+    .login{
+      position: absolute;
+      left: 10px;
+    }
+    .cart{
+      position: absolute;
+      right:10px;
     }
     #my-footer-row-2,#footer__table__1,#footer__table__2,#footer__row__2__col2{
         display: flex;
